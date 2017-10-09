@@ -1,0 +1,36 @@
+@charset "utf-8";
+#navbar {
+	background-color: #1CC08A;
+	padding: 0px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+#navbar .navlist {
+	list-style-type: none;
+	text-decoration: none;
+	overflow: hidden;
+}
+#navbar .navlist li {
+	float: left;
+	text-align: left;
+	padding: 0;
+}
+.navlist li a {
+	text-decoration: none;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	display: block;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FDF9F9;
+	text-align: center;
+	font-size: 1.5em;
+}
+.active {
+	background-color: rgba(0,0,0,0.25);
+}
+.navlist li a:hover {
+	color: #DDE910;
+	background-color: #030303;
+}
